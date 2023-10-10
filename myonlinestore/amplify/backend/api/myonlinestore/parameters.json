@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "myonlinestore",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authmyonlinestore8d2e122f8d2e122f",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2023-10-10T09:50:54.485Z"
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/items": {
+      "name": "/items",
+      "lambdaFunction": "myonlinestore3b105a89",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
