@@ -1,6 +1,6 @@
 {
   "api": {
-    "apiea884db9": {
+    "listAccountRepresentatives": {
       "dependsOn": [
         {
           "attributes": [
@@ -8,7 +8,7 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "myonlinestore3b105a89"
+          "resourceName": "listAccountRepresentatives"
         }
       ],
       "providerPlugin": "awscloudformation",
@@ -86,25 +86,8 @@
     }
   },
   "function": {
-    "myonlinestore3b105a89": {
+    "listAccountRepresentatives": {
       "build": true,
-      "dependsOn": [
-        {
-          "attributes": [
-            "UserPoolId"
-          ],
-          "category": "auth",
-          "resourceName": "myonlinestore8d2e122f8d2e122f"
-        },
-        {
-          "attributes": [
-            "GraphQLAPIIdOutput",
-            "GraphQLAPIEndpointOutput"
-          ],
-          "category": "api",
-          "resourceName": "myonlinestore"
-        }
-      ],
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }

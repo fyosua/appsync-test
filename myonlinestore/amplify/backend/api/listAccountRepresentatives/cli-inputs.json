@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/listAccountRepresentatives": {
+      "name": "/listAccountRepresentatives",
+      "lambdaFunction": "listAccountRepresentatives",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
