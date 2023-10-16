@@ -91,5 +91,23 @@
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
+  },
+  "parameters": {
+    "AMPLIFY_function_listAccountRepresentatives_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "listAccountRepresentatives"
+        }
+      ]
+    },
+    "AMPLIFY_function_listAccountRepresentatives_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "listAccountRepresentatives"
+        }
+      ]
+    }
   }
 }

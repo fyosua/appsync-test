@@ -17,10 +17,14 @@
         "userPoolGroups": {}
       },
       "api": {
-        "myonlinestore": {}
+        "myonlinestore": {},
+        "listAccountRepresentatives": {}
       },
       "function": {
-        "listAccountRepresentatives": {}
+        "listAccountRepresentatives": {
+          "deploymentBucketName": "amplify-myonlinestore-dev-35029-deployment",
+          "s3Key": "amplify-builds/listAccountRepresentatives-7a437763306757534f47-build.zip"
+        }
       }
     }
   }
